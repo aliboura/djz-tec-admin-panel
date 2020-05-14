@@ -4,7 +4,7 @@ Djz Tec  is an  an admin panel based on bootstrap 4 and angular 9
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+to install the Djz Tec admin panel :
 
 ```bash
 git clone  https://github.com/aliboura/admin-panel.git
