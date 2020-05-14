@@ -1,13 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 declare var $: any;
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-side-nav',
+  templateUrl: './side-nav.component.html',
+  styleUrls: ['./side-nav.component.css']
 })
-export class AppComponent {
-  title = 'adminali';
+export class SideNavComponent implements OnInit {
+
+  constructor() { }
+
   ngOnInit(): void {
 
     $('#sidebarToggle, #sidebarToggleTop').on('click', (e) => {
@@ -29,4 +31,5 @@ export class AppComponent {
 
 
   }
-  }
+
+}
